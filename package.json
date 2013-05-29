@@ -1,6 +1,6 @@
 {
   "name": "generator-pure",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "YUI Pure generator",
   "keywords": [
     "yeoman-generator",
