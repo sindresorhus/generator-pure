@@ -3,9 +3,7 @@
 var Generator = module.exports = function () {
 	var cb = this.async();
 
-	this.directory('src', 'css/pure');
-
-	/*this.prompt([{
+	this.prompt([{
 		name: 'path',
 		message: 'Where would you like to generate it?',
 		default: 'css/pure'
@@ -17,7 +15,7 @@ var Generator = module.exports = function () {
 		this.directory('src', props.path);
 
 		cb();
-	}.bind(this));*/
+	}.bind(this));
 };
 
 Generator.name = 'YUI Pure';

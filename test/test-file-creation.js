@@ -20,7 +20,7 @@ describe('Pure generator', function () {
 	it('generates expected files', function (cb) {
 		var expected = ['base', 'buttons'];
 
-		//helpers.mockPrompt(this.gen, { path: 'css/pure' });
+		helpers.mockPrompt(this.gen, { path: '.' });
 
 		this.gen.run({}, function () {
 			helpers.assertFiles(expected);
