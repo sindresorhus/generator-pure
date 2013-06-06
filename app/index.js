@@ -7,11 +7,7 @@ var Generator = module.exports = function () {
 		name: 'path',
 		message: 'Where would you like to generate it?',
 		default: 'css/pure'
-	}], function (err, props) {
-		if (err) {
-			return this.emit('error', err);
-		}
-
+	}], function (props) {
 		this.directory('src', props.path);
 
 		cb();
