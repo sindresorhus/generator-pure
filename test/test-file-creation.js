@@ -18,9 +18,9 @@ describe('Pure generator', function () {
 	});
 
 	it('generates expected files', function (cb) {
-		var expected = ['base', 'buttons'];
+		var expected = [path.join('pure', 'buttons.css')];
 
-		helpers.mockPrompt(this.gen, { path: '.' });
+		helpers.mockPrompt(this.gen, { modules: ['Buttons'] });
 
 		this.gen.run({}, function () {
 			helpers.assertFiles(expected);

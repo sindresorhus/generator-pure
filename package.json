@@ -25,13 +25,14 @@
     "test": "mocha"
   },
   "dependencies": {
-    "yeoman-generator": "~0.12.0"
+    "yeoman-generator": "~0.13.4",
+    "chalk": "~0.2.1"
   },
   "peerDependencies": {
     "yo": ">=1.0.0-rc.1.1"
   },
   "devDependencies": {
-    "mocha": "~1.9.0"
+    "mocha": "~1.13.0"
   },
   "engines": {
     "node": ">=0.8.0"
