@@ -1,8 +1,18 @@
 'use strict';
-var path = require('path');
+
 var chalk = require('chalk');
+var path = require('path');
+var util = require('util');
+var yeoman = require('yeoman-generator');
 
 var Generator = module.exports = function () {
+	yeoman.generators.Base.apply(this, arguments);
+};
+
+util.inherits(Generator, yeoman.generators.NamedBase);
+
+Generator.prototype.askUser = function () {
+
 	var cb = this.async();
 	var self = this;
 
@@ -26,6 +36,7 @@ var Generator = module.exports = function () {
 
 		cb();
 	});
+
 };
 
 Generator.name = 'YUI Pure';
