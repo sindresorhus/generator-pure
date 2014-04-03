@@ -1,18 +1,26 @@
-# YUI Pure generator [![Build Status](https://secure.travis-ci.org/sindresorhus/generator-pure.png?branch=master)](http://travis-ci.org/sindresorhus/generator-pure)
+# YUI Pure generator [![Build Status](https://travis-ci.org/sindresorhus/generator-pure.svg?branch=master)](https://travis-ci.org/sindresorhus/generator-pure)
 
 > Scaffolds out [YUI Pure](https://github.com/yui/pure)
 
 ![screenshot](screenshot.png)
 
 
-## Getting started
+## Install
 
-- Install the generator: `npm install -g generator-pure`
-- Run: `yo pure` and select the modules you want
+```bash
+$ npm install --global generator-pure
+```
 
-*[Read more about yo](https://yeoman.io)*
+
+## Usage
+
+Run it with [yo](https://github.com/yeoman/yo):
+
+```bash
+$ yo pure
+```
 
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+[MIT](http://opensource.org/licenses/MIT) © [Sindre Sorhus](http://sindresorhus.com)
