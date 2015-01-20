@@ -2,12 +2,12 @@
 
 > Scaffolds out [YUI Pure](https://github.com/yui/pure)
 
-![screenshot](screenshot.png)
+![](screenshot.png)
 
 
 ## Install
 
-```bash
+```
 $ npm install --global generator-pure
 ```
 
@@ -16,11 +16,11 @@ $ npm install --global generator-pure
 
 Run it with [yo](https://github.com/yeoman/yo):
 
-```bash
+```
 $ yo pure
 ```
 
 
 ## License
 
-[MIT](http://opensource.org/licenses/MIT) © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](http://sindresorhus.com)

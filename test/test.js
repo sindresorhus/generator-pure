@@ -9,7 +9,8 @@ describe('Pure generator', function () {
 
 		helpers.testDirectory(path.join(__dirname, 'temp'), function (err) {
 			if (err) {
-				return cb(err);
+				cb(err);
+				return;
 			}
 
 			this.gen = helpers.createGenerator('pure:app', deps);
@@ -20,10 +21,10 @@ describe('Pure generator', function () {
 	it('generates expected files', function (cb) {
 		var expected = [path.join('pure', 'buttons.css')];
 
-		helpers.mockPrompt(this.gen, { modules: ['Buttons'] });
+		helpers.mockPrompt(this.gen, {modules: ['Buttons']});
 
 		this.gen.run({}, function () {
-			helpers.assertFiles(expected);
+			helpers.assertFile(expected);
 			cb();
 		});
 	});
