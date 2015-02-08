@@ -23,7 +23,7 @@ describe('Pure generator', function () {
 
 		helpers.mockPrompt(this.gen, {modules: ['Buttons']});
 
-		this.gen.run({}, function () {
+		this.gen.run(function () {
 			helpers.assertFile(expected);
 			cb();
 		});
