@@ -1,3 +1,7 @@
+# Deprecated
+
+---
+
 # YUI Pure generator [![Build Status](https://travis-ci.org/sindresorhus/generator-pure.svg?branch=master)](https://travis-ci.org/sindresorhus/generator-pure)
 
 > Scaffolds out [YUI Pure](https://github.com/yui/pure)
@@ -8,7 +12,7 @@
 ## Install
 
 ```
-$ npm install --global generator-pure
+$ npm install --global yo generator-pure
 ```
 
 
@@ -23,4 +27,4 @@ $ yo pure
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)
